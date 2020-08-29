@@ -34,4 +34,4 @@ jobs:
       run: npm install -global surge
 
     - name: Deploy to surge
-      run: surge ./ kh-2020-08-bc15quizz.surge.sh/ --token ${{ secrets.SURGE_TOKEN }} 
+      run: surge ./kh-2020-08-bc15quizz.surge.sh/ --token ${{ secrets.SURGE_TOKEN }} 
